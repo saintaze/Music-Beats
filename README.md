@@ -1,6 +1,3 @@
-# music-beats
-
-
 # Music-Beats
 It is a simple 6 beat music game. Tap on a pad to make a beat!
 
