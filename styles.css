@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  line-height: 1.7;
+  color: #333;
+  font-weight: normal;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+header{
+  text-align: center;
+}
+
+h1 {
+  font-size:4rem;
+  margin: 3.5rem 0 .6rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+.pads {
+  display: flex;
+}
+
+.pads > div {
+  height: 10rem;
+  flex: 1;
+}
+
+.pads .pad-1 {
+  background-color: #60d394;
+}
+
+.pads .pad-2 {
+  background-color: #d36060;
+}
+
+.pads .pad-3{
+  background-color: #c060d3;
+}
+
+.pads .pad-4 {
+  background-color: #d3d160;
+}
+
+.pads .pad-5 {
+  background-color: #6860d3;
+}
+
+.pads .pad-6 {
+  background-color: #60b2d3;
+}
+
+.ball {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100px;
+  animation: jump 1s ease;
+  position: absolute;
+  z-index: -1;
+}
+
+
+@keyframes jump {
+  0%{
+    bottom: 0%;
+    left: 20%;
+  }
+
+  50%{
+    bottom: 52%;
+    left: 50%;
+  }
+
+  100%{
+    bottom: 0%;
+    left: 80%;
+  }
+}
