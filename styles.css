@@ -39,6 +39,10 @@ h2 {
   display: flex;
 }
 
+.pad:hover {
+  cursor: pointer;
+}
+
 .pads > div {
   height: 10rem;
   flex: 1;
