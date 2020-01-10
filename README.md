@@ -9,4 +9,4 @@ It is a simple 6 beat music game. Tap on a pad to make a beat!
 # Live Version
 #### URL: [Make Some Music](https://music-beats.ayezahmed.now.sh)
 # Author
-Saintaze [https://github.com/saintaze/](https://github.com/saintaze/)
+Saintaze [@saintaze](https://github.com/saintaze/)
